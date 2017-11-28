@@ -175,19 +175,19 @@ header.masthead {
   header.masthead p.lead {
     font-family: 'Raleway', sans-serif; }
   header.masthead #pictureOne {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/office1.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo1.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
   header.masthead #pictureTwo {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/office2.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo2.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
   header.masthead #pictureThree {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/office3.jpg") no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo3.jpeg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

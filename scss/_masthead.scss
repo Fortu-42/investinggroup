@@ -31,17 +31,17 @@ header.masthead {
   }
 
   #pictureOne{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office1.jpg") no-repeat center; 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo1.jpeg") no-repeat center; 
     @include background-cover;
   }
 
   #pictureTwo{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office2.jpg") no-repeat center; 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo2.jpeg") no-repeat center; 
     @include background-cover;
   }
 
   #pictureThree{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office3.jpg") no-repeat center; 
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo3.jpeg") no-repeat center; 
     @include background-cover;
   }
 
