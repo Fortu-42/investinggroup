@@ -104,13 +104,14 @@ p.mb-4{
 div.btn-about{
   position: relative;
   left: 50%;
+  margin-left: -150px;
   
 }
 
 
 @media (min-width: 768px) {
  div.btn-about{
-   margin-left: -150px;
+   
    margin-top: 50px;
  }
 
