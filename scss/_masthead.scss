@@ -1,0 +1,90 @@
+// Styling for the masthead
+
+
+header.masthead {
+ // padding-top: 10rem;
+  //padding-bottom: calc(10rem - 56px);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-position: center center;
+  @include background-cover;
+
+  .fadein{
+    .my-auto{
+      height:100vh;
+      width: 100vw;
+        h1{
+          padding-top: 30vh;
+          margin-bottom: -10px;
+         
+        }
+    }
+  }
+
+  h1.caption{
+    @include header-font;
+  }
+
+  p.lead{
+    @include header-font;
+  }
+
+  #pictureOne{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office1.jpg") no-repeat center; 
+    @include background-cover;
+  }
+
+  #pictureTwo{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office2.jpg") no-repeat center; 
+    @include background-cover;
+  }
+
+  #pictureThree{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/office3.jpg") no-repeat center; 
+    @include background-cover;
+  }
+
+
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 1rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0,0,0,0.1);
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.2rem;
+      font-weight: bolder;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgba(0,0,0,0.1);
+    }
+  }
+  @media (min-width: 992px) {
+    height: 100vh;
+    min-height: 650px;
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+     
+      font-size: 70px;
+      
+    }
+
+    p.lead{
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+  }
+}
