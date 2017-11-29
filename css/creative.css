@@ -225,6 +225,9 @@ header.masthead {
 .service-box {
   max-width: 400px; }
 
+.pix {
+  margin-bottom: -10px; }
+
 .portfolio-box {
   position: relative;
   display: block;
