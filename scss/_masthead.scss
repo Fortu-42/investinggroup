@@ -1,49 +1,62 @@
 // Styling for the masthead
 
-
 header.masthead {
- // padding-top: 10rem;
+  // padding-top: 10rem;
   //padding-bottom: calc(10rem - 56px);
   overflow-x: hidden;
   overflow-y: hidden;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-position: center center;
   @include background-cover;
 
-  .fadein{
-    .my-auto{
-      height:100vh;
+  .fadein {
+    .my-auto {
+      height: 100vh;
       width: 100vw;
     }
   }
 
-  h1.caption{
+  h1.caption {
     padding-top: 25vh;
     margin-bottom: -10px;
     font-size: 45px;
     @include header-font;
   }
 
-  p.lead{
+  p.lead {
     @include header-font;
     font-size: 20px;
   }
 
-  #pictureOne{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo1.jpeg") no-repeat center; 
+  #pictureOne {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        transparent
+      ),
+      url("../img/photo1.jpeg") no-repeat center;
     @include background-cover;
   }
 
-  #pictureTwo{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo2.jpeg") no-repeat center; 
+  #pictureTwo {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        transparent
+      ),
+      url("../img/photo2.jpeg") no-repeat center;
     @include background-cover;
   }
 
-  #pictureThree{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo3.jpeg") no-repeat center; 
+  #pictureThree {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2),
+        transparent
+      ),
+      url("../img/photo3.jpeg") no-repeat center;
     @include background-cover;
   }
-
 
   hr {
     margin-top: 30px;
@@ -52,7 +65,7 @@ header.masthead {
   h1 {
     font-size: 1rem;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0,0,0,0.1);
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
   }
   p {
     font-weight: 300;
@@ -62,7 +75,7 @@ header.masthead {
       font-size: 1.2rem;
       font-weight: bolder;
       -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: rgba(0,0,0,0.1);
+      -webkit-text-stroke-color: rgba(0, 0, 0, 0.1);
     }
   }
   @media (min-width: 992px) {
@@ -75,15 +88,13 @@ header.masthead {
   }
   @media (min-width: 1200px) {
     h1.caption {
-      padding-top : 30vh;
+      padding-top: 30vh;
       font-size: 70px;
-      
     }
 
-    p.lead{
+    p.lead {
       font-size: 25px;
       font-weight: bold;
     }
-
   }
 }
